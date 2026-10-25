@@ -130,7 +130,7 @@ After connecting the repository to Vercel and selecting the intended team, deplo
 vercel deploy
 ```
 
-The public deployment URL will be added here after the app is deployed and checked. The same project can also be run with Docker; `Dockerfile`, `docker-compose.yml`, and `heroku.yml` provide the container path for local use or a container host.
+The pilot is deployed at [https://p7v2k9wm.vercel.app](https://p7v2k9wm.vercel.app). The same project can also be run with Docker; `Dockerfile`, `docker-compose.yml`, and `heroku.yml` provide the container path for local use or a container host.
 
 ## AI-assisted development
 
