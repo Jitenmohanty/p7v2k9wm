@@ -7,6 +7,12 @@ from app.main import app, get_dashboard_service
 UTC = timezone.utc
 
 
+def test_vercel_entrypoint_exports_the_fastapi_application() -> None:
+    from main import app as vercel_app
+
+    assert vercel_app is app
+
+
 class StubService:
     async def get_dashboard(self, decision_date: date, cutoff_time: time) -> dict:
         return {
